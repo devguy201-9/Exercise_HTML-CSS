@@ -1,0 +1,33 @@
+.khoinho{
+    display:flex;
+    width:300px;
+    justify-content: space-between;
+    font-family:segoe ui;
+}
+.khoinho .trai{
+    width:60px;
+}
+.khoinho .phai{
+    width:220px;
+}
+img{width:100%;}
+.khoinho .phai a.a1{
+    text-decoration:none;
+    display:block;
+    color:rgb(46, 43, 43);
+}
+.khoinho .phai a.a2{
+    text-decoration:none;
+    color:gray;
+    font-size:12px;
+}
+.khoinho .phai span.phut{
+    text-decoration:none;
+    color:gray;
+    font-size:12px;
+}
+.khoinho .phai a.a3{
+    text-decoration:none;
+    color:gray;
+    font-size:12px;
+}

@@ -1,0 +1,29 @@
+.cottren{
+    font-family:segoe ui light;
+    font-size:13px;
+    width:500px;
+}
+.cottren img{
+    width:100%;
+}
+
+a.anhvatext{
+    text-decoration: none;
+    color:gray;
+    font-size:20px;
+}
+a.anhvatext:hover{
+    color: #2ba1b1;
+}
+a.anhvatext h3{
+    margin: 0;
+    padding:0;
+}
+
+a.nguon,a.lienquan{
+    text-decoration:none;
+    padding-right: 10px;
+}
+span.gio{
+    padding-right: 10px;
+}

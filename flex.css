@@ -1,0 +1,25 @@
+._13the{
+    width:1000px;
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+}
+
+._13the ._1cot{
+    width:76px;
+    height: 100px;
+    text-align:center;
+    font-size:13px;
+    font-family:segoe ui;
+}
+
+._13the ._1cot img{
+    border-radius: 4px;
+}
+._13the ._1cot img:hover{
+    border:1px solid #2528dd;
+}
+._13the ._1cot a.ten{
+    text-decoration:none;
+    color: #3b75e0;
+}

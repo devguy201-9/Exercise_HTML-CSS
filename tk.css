@@ -1,0 +1,44 @@
+.banner {
+    width:1115px;
+    height:490px;
+    margin:auto;
+    display:flex;
+}
+
+.banner ._1c{
+    width:218px;
+}
+.banner ._1c ._1hang{
+    display: flex;
+}
+.banner ._1c ._1hang .hangtrai{width: 42px;}
+.banner ._1c ._1hang .hangphai{width: calc(100% - 42px)}
+.banner ._2c{
+    width:525px;
+}
+.banner ._2c .tren{
+    height:326px;
+}
+.banner ._2c .duoi{
+    height: 160px;
+    display:flex;
+}
+.banner ._2c .duoi .motnua{
+    width:50%;
+}
+
+.banner ._3c{
+    width:372px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner ._3c ._6divimg{
+    width:50%;
+}
+
+img{
+    width:100%;
+}
+#s1 .carousel-indicators{
+    opacity: 0;
+}

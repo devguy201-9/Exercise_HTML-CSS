@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --font1:'Oswald',sans-serif;
+    --size1:44px;
+    --lineheight1:60px;
+    --font2:'Amiri',serif;
+    --size2:20px;
+    --color2:#666;
+    --size3:22px;
+}
+.banner_top{
+    background:url(top.jpg) top center;
+    height:600px;
+    background-size:cover;
+    position:relative;
+    background-attachment:fixed;
+}
+.banner_top:before{
+    content:'';
+    position:absolute;
+    background-image:-webkit-linear-gradient(left, #4b4747a6 0%,#cfcfdb00,#4b4747a6 100%);
+    width:100%;
+    height:100%;
+}
+.banner_top ._3cot{
+    display:flex;
+    position: absolute;
+    width:100%;
+    top:0px;
+}
+.banner_top ._3cot ._1cot{
+    width:33.33%;  
+}
+
+.banner_top ._3cot ._1cot.cottrai{
+    padding-left:30px;
+}
+.banner_top ._3cot ._1cot.cottrai a{
+    color:white;
+    font-size:20px;
+    padding:40px 10px;
+    display:inline-block;
+}
+.banner_top ._3cot ._1cot.cottrai a:hover{color:#0345bf;}
+
+.banner_top ._3cot ._1cot.cotphai{
+    text-align:right;
+    padding-right:30px;
+}
+.banner_top ._3cot ._1cot.cotphai a{
+    color:white;
+    font-size:20px;
+    padding:40px 10px;
+    display:inline-block;
+}
+
+.banner_top ._3cot ._1cot.cotgiua img{
+    height: 30px;
+    padding-top:50px;
+}
+.banner_top ._3cot ._1cot.cotgiua{
+    text-align:center;
+}
+.text_banner{
+    position: absolute;
+    width: 100%;
+    top:45%;
+    color:white;
+}
+.text_banner .content{
+    width:1170px;
+    margin:auto;
+}
+.text_banner .content .small_text{
+    font-family:var(--font1);
+}
+.text_banner .content h1{
+    font-family:var(--font1);
+    font-size:var(--size1);
+    line-height:var(--lineheight1);
+    color:white;
+    width:50%;
+}
+/* end css top */
+.content1{
+    width:1170px;
+    margin:auto;
+    padding:80px 0;
+    display:flex;
+    font-family:var(--font2);
+    font-size:var(--size2);
+    color:var(--color2);
+}
+.content1 .trai{
+    width:35%;
+}
+.content1 .trai span{}
+.content1 .trai h2{
+    font-family:var(--font1);
+    font-size:var(--size3);
+    width:50%;
+}
+.content1 .phai{
+    width:65%;
+}
+.content1 .phai p{
+    line-height:20px;
+    margin-top:30px;
+}
+/* end css text */
+
+.nen {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    height: 1800px;
+}
+.block {
+    height: 100%;
+    width:1380px;
+    display: flex;
+    flex-wrap:wrap;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+.block .text_center {
+    position: absolute;
+    font-family:var(--font1);
+    font-size:var(size1);
+    line-height:var(--lineheight1);
+    padding-top:60px;
+    color:white;
+    left: 45%;
+    z-index: 1;
+}
+.block .image_block {
+    width:680px;
+    height:780px;
+    padding-top:150px;
+}
+.block .image_block img{
+    width:100%;
+}
+.block .image_block .big_text{
+    font-family:var(--font1);
+    font-size:var(--size2);
+    line-height: var(--lineheight1);
+}
+.block .image_block .small_text{}

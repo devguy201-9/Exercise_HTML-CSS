@@ -1,0 +1,58 @@
+.content{
+    display: flex;
+    width:1560px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+.product{
+    font-family:segoe ui light;
+    font-size:13px;
+    columns: #6e6464;
+    width:500px;
+    height:570px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.product .anh1{width:100%;
+}
+.product .anh2{
+    width:100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    transition: 0.4;
+    opacity: 0;
+}
+.product:hover .anh2{opacity: 1;}
+.product .layer1{
+    width:100%;
+    display:flex;
+    margin-top: 20px;
+}
+.product .layer1 .trai{
+    width:100%;
+}
+.product .layer1 .trai a{
+    text-decoration:none;
+    font-weight: bold;
+    color:#6e6464;
+}
+.product .layer1 .phai{}
+
+.product .layer2{
+    position: absolute;
+    left:0px;
+    transition:0.4s;
+    bottom: 1px;
+}
+.product:hover .layer2{opacity: 0;}
+.product .layer3{
+    position: absolute;
+    left:0px;
+    transition:0.4s;
+    bottom: 1px;
+    opacity: 0;
+}
+.product:hover .layer3{opacity: 1;}
